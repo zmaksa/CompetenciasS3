@@ -53,10 +53,16 @@ body {
 /*    FIN PUNTO 1--    */
 
 /*    2--.ENCABEZADO    */
+header{
+    text-align: center;
+}
+
 h1 {
   color: #ffb300;
   letter-spacing: -2px;
+  max-height: fit-content;
 }
+
 .texto-luz {
   text-shadow:
     0 0 4px rgba(255, 245, 221, 0.55),
@@ -66,3 +72,11 @@ h1 {
 }
 
 /*    FIN PUNTO 2--    */
+
+/*    3.PIE DE PÁGINA    */
+footer{
+    text-align: center;
+}
+footer p{
+    font-size: 0.8em;
+}
