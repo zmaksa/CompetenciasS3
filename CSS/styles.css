@@ -1,0 +1,68 @@
+/* Paleta de colores
+
+
+100A00 negro
+FFB300 amarillo
+adwasdwasdwa
+FFF5DD
+FAFAF5
+
+*/
+
+/*    DISEÑO DE LA PÁGINA    */
+
+/*  --FUENTE TÍTULO    */
+.tinos-regular {
+  font-family: "Tinos", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.tinos-bold {
+  font-family: "Tinos", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.tinos-regular-italic {
+  font-family: "Tinos", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.tinos-bold-italic {
+  font-family: "Tinos", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+/*    FIN FUENTE TÍTULO--  */
+
+/*    --1.GENERAL    */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 24px;
+}
+
+body {
+  color: #fff5dd;
+  background-color: #100a00;
+}
+/*    FIN PUNTO 1--    */
+
+/*    2--.ENCABEZADO    */
+h1 {
+  color: #ffb300;
+  letter-spacing: -2px;
+}
+.texto-luz {
+  text-shadow:
+    0 0 4px rgba(255, 245, 221, 0.55),
+    0 0 14px rgba(255, 245, 221, 0.4),
+    0 0 30px rgba(255, 179, 0, 0.35),
+    0 0 55px rgba(255, 179, 0, 0.15);
+}
+
+/*    FIN PUNTO 2--    */
