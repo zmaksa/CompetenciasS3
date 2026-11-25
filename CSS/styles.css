@@ -46,7 +46,7 @@ FAFAF5
   box-sizing: border-box;
 }
 
-html{
+html {
   font-size: 20px;
 }
 
@@ -55,15 +55,9 @@ body {
   background-color: #100a00;
 }
 
-a{
-  background-color: #FAFAF5;
-  border: 2px solid #FFB300;
-  border-radius: 5px;
-  color: #100A00;
-  padding:1px 6px;
-}
 
-.justificado{
+
+.justificado {
   text-align: justify;
 }
 
@@ -92,6 +86,30 @@ h1 {
     0 0 55px rgba(255, 179, 0, 0.15);
 }
 
+.navBar {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  width: 100%;
+}
+.navBar a{
+  flex:1;
+}
+
+a:hover{
+  background-color: #F0F0EB;
+}
+
+a{
+  background-color: #FAFAF5;
+  border: 2px solid #FFB300;
+  border-radius: 5px;
+  color: #100A00;
+  padding:1px 6px;
+
+}
+
+
 /*    FIN PUNTO 2--    */
 
 
@@ -105,19 +123,17 @@ footer {
 footer p {
   font-size: 0.9rem;
 }
+
 /*     FIN PUNTO 3    */
 
 
 
 
 /*    4.IMÁGENES    */
-.imagenTrabajo{
+.imagenTrabajo {
   /* height: 30rem; */
   height: 500px;
   width: auto;
 }
 
 /*    FIN PUNTO 4    */
-
-
-
