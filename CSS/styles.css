@@ -35,26 +35,46 @@ FAFAF5
   font-weight: 700;
   font-style: italic;
 }
+
 /*    FIN FUENTE TÍTULO--  */
+
+
+
 
 /*    --1.GENERAL    */
 * {
   box-sizing: border-box;
 }
 
-html {
-  font-size: 24px;
+html{
+  font-size: 20px;
 }
 
 body {
   color: #fff5dd;
   background-color: #100a00;
 }
+
+a{
+  background-color: #FAFAF5;
+  border: 2px solid #FFB300;
+  border-radius: 5px;
+  color: #100A00;
+  padding:1px 6px;
+}
+
+.justificado{
+  text-align: justify;
+}
+
 /*    FIN PUNTO 1--    */
 
+
+
+
 /*    2--.ENCABEZADO    */
-header{
-    text-align: center;
+header {
+  text-align: center;
 }
 
 .header-section{
@@ -71,6 +91,7 @@ h1 {
   color: #ffb300;
   letter-spacing: -2px;
   max-height: fit-content;
+  font-size: 3.5rem;
 }
 
 .texto-luz {
@@ -83,10 +104,30 @@ h1 {
 
 /*    FIN PUNTO 2--    */
 
+
+
+
 /*    3.PIE DE PÁGINA    */
-footer{
-    text-align: center;
+footer {
+  text-align: center;
 }
-footer p{
-    font-size: 0.8em;
+
+footer p {
+  font-size: 0.9rem;
 }
+/*     FIN PUNTO 3    */
+
+
+
+
+/*    4.IMÁGENES    */
+.imagenTrabajo{
+  /* height: 30rem; */
+  height: 500px;
+  width: auto;
+}
+
+/*    FIN PUNTO 4    */
+
+
+
