@@ -1,6 +1,5 @@
 /* Paleta de colores
 
-
 100A00 negro
 FFB300 amarillo
 adwasdwasdwa
@@ -11,80 +10,12 @@ FAFAF5
 
 /*    DISEÑO DE LA PÁGINA    */
 
-/*  --FUENTE TÍTULO    */
-.tinos-regular {
-  font-family: "Tinos", serif;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.tinos-bold {
-  font-family: "Tinos", serif;
-  font-weight: 700;
-  font-style: normal;
-}
-
-.tinos-regular-italic {
-  font-family: "Tinos", serif;
-  font-weight: 400;
-  font-style: italic;
-}
-
-.tinos-bold-italic {
-  font-family: "Tinos", serif;
-  font-weight: 700;
-  font-style: italic;
-}
-
-/*    FIN FUENTE TÍTULO--  */
+/* 0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+*/
 
 
-
-
-/*    --1.GENERAL    */
-* {
-  box-sizing: border-box;
-}
-
-html {
-  font-size: 20px;
-}
-
-body {
-  color: #fff5dd;
-  background-color: #100a00;
-}
-
-
-
-.justificado {
-  text-align: justify;
-}
-
-/*    FIN PUNTO 1--    */
-
-
-
-
+/* 1111111111111111111111111111111111111111111111111111111111111111111111111111111111111 */
 /*    2--.ENCABEZADO    */
-header {
-  text-align: center;
-}
-
-h1 {
-  color: #ffb300;
-  letter-spacing: -2px;
-  max-height: fit-content;
-  font-size: 3.5rem;
-}
-
-.texto-luz {
-  text-shadow:
-    0 0 4px rgba(255, 245, 221, 0.55),
-    0 0 14px rgba(255, 245, 221, 0.4),
-    0 0 30px rgba(255, 179, 0, 0.35),
-    0 0 55px rgba(255, 179, 0, 0.15);
-}
 
 .navBar {
   display: flex;
@@ -92,29 +23,35 @@ h1 {
   gap: 10px;
   width: 100%;
 }
-.navBar a{
-  flex:1;
+
+.navBar a {
+  flex: 1;
 }
 
-a:hover{
-  background-color: #F0F0EB;
-}
 
-a{
-  background-color: #FAFAF5;
-  border: 2px solid #FFB300;
+a {
+  border: 2px solid rgba(255, 179, 0, 0.596);
+  background-color: #f8ae0025;
+  /* border: 2px solid #FFB300; */
   border-radius: 5px;
-  color: #100A00;
-  padding:1px 6px;
-
+  color: #f9f8f6;
+  padding: 1px 6px;
+  text-decoration: none;
+  opacity:0.9;
 }
 
+#linkPedidos {
+  background-color: #ffb300;
+}
+
+a:hover {
+  background: linear-gradient(67deg, #ff8400, #ffb300);
+  border: 2px dotted rgb(253, 242, 160);
+  opacity: 1;
+}
 
 /*    FIN PUNTO 2--    */
-
-
-
-
+/* 22222222222222222222222222222222222222222222222222222222222222222222222222222 */
 /*    3.PIE DE PÁGINA    */
 footer {
   text-align: center;
@@ -125,10 +62,7 @@ footer p {
 }
 
 /*     FIN PUNTO 3    */
-
-
-
-
+/* 333333333333333333333333333333333333333333333333333333333333333333333333333333 */
 /*    4.IMÁGENES    */
 .imagenTrabajo {
   /* height: 30rem; */
@@ -137,3 +71,4 @@ footer p {
 }
 
 /*    FIN PUNTO 4    */
+/* 4444444444444444444444444444444444444444444444444444444444444444444444444444444 */

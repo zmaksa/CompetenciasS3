@@ -1,0 +1,72 @@
+/*  --FUENTE TÍTULO    */
+.tinos-regular {
+  font-family: "Tinos", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.tinos-bold {
+  font-family: "Tinos", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.tinos-regular-italic {
+  font-family: "Tinos", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.tinos-bold-italic {
+  font-family: "Tinos", serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+/*    FIN FUENTE TÍTULO--  */
+
+/* asdw */
+/*    --1.GENERAL    */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 20px;
+  scroll-behavior: smooth;
+}
+
+body {
+  color: #fff5dd;
+  background-color: #100a00;
+  position: relative;
+}
+
+
+
+.justificado {
+  text-align: justify;
+}
+
+/*    FIN PUNTO 1--    */
+
+/*    encbezado */
+header {
+  text-align: center;
+}
+
+h1 {
+  color: #ffb300;
+  letter-spacing: -2px;
+  max-height: fit-content;
+  font-size: 3.5rem;
+  margin-bottom: 0;
+}
+
+.texto-luz {
+  text-shadow:
+    0 0 4px rgba(255, 245, 221, 0.55),
+    0 0 14px rgba(255, 245, 221, 0.4),
+    0 0 30px rgba(255, 179, 0, 0.35),
+    0 0 55px rgba(255, 179, 0, 0.15);
+}
