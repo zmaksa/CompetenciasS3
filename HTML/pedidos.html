@@ -5,13 +5,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Art cut: hacer un pedido.</title>
-
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap"
         rel="stylesheet" />
-    <link rel="stylesheet" href="/CSS/font.css">
     <link rel="stylesheet" href="/CSS/generals.css">
+    <link rel="stylesheet" href="/CSS/pedidos.css">
+    <!-- ENSEÑA AL NAVEGADOR DÓNDE ENCONTRAR LAS LIBRERÍAS DE FIREBASE (no sé si lo use) -->
+    <!-- <script type="importmap">
+    {
+      "imports": {
+        "firebase/app": "https://www.gstatic.com/firebasejs/10.8.0/firebase-app.js",
+        "firebase/firestore": "https://www.gstatic.com/firebasejs/10.8.0/firebase-firestore.js",
+        "firebase/storage": "https://www.gstatic.com/firebasejs/10.8.0/firebase-storage.js",
+        "firebase/analytics": "https://www.gstatic.com/firebasejs/10.8.0/firebase-analytics.js"
+      }
+    }
+    </script> -->
 </head>
 
 <body>
@@ -22,7 +32,21 @@
     </header>
     <main>
 
+        <form method="post">
+            <div>
+                <label for="nombreDelUsuario">Escriba su nombre.</label>
+                <input id="nombreDelUsuario" type="text">
+            </div>
+            <div>
+                <label for="logoImagen">Imagen del logo.</label>
+                <input id="logoImagen" type="file" accept="image/*,application/pdf">
+            </div>
+            <div>
+                <img id="vistaPreviaLogo" alt="Vista previa del logo">
+            </div>
+        </form>
     </main>
+    <script src="/JavaScript/pedidos.js" defer></script>
 </body>
 
 </html>

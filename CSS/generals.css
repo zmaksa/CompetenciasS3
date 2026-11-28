@@ -1,4 +1,14 @@
-/*  --FUENTE TÍTULO    */
+/* Paleta de colores
+
+100A00 negro
+FFB300 amarillo
+
+FFF5DD
+FAFAF5
+
+*/
+
+/*  --FUENTE TÍTULOs    */
 .tinos-regular {
   font-family: "Tinos", serif;
   font-weight: 400;
@@ -23,10 +33,37 @@
   font-style: italic;
 }
 
-/*    FIN FUENTE TÍTULO--  */
 
-/* asdw */
+
+/*    FIN FUENTE TÍTULOs--  */
+
+/* FUENTE DE LOS TEXTOS GENERALES */
+
+p,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+h2,
+h3,
+h4,
+h5,
+h6{
+  color:#FAFAF5;
+}
+
+/* FIN FUENTE TEXTOS EGNERALEs */
+
+
 /*    --1.GENERAL    */
+
 * {
   box-sizing: border-box;
 }
@@ -50,10 +87,8 @@ body {
 
 /*    FIN PUNTO 1--    */
 
-/*    encbezado */
-header {
-  text-align: center;
-}
+
+/*    encbezado    */
 
 h1 {
   color: #ffb300;
@@ -70,3 +105,5 @@ h1 {
     0 0 30px rgba(255, 179, 0, 0.35),
     0 0 55px rgba(255, 179, 0, 0.15);
 }
+
+/* fin encabezado */
